@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.text_Area{
+    resize: none; 
+    width: 320px;
+}
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin: auto;
+    margin-top: 4rem;
+    padding: 1rem;
+
+}
+.shirts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+
+}
+.img_text{
+    position:absolute;
+   top : 13rem;
+   width: 10rem;
+   height: 5rem;
+   word-wrap: break-word;
+      overflow:hidden;
+   padding: 0px;
+
+}
+.bold { font-weight: bold; }
+.images{
+    width: 25rem;
+}
+.operations{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 1rem;
+    cursor: pointer;
+}
+.color_btns{
+    padding: 1rem;
+    cursor: pointer;
+}
+.operation_btn{
+    padding: 0.4rem;
+    cursor: pointer;
+}
+.textbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+.text_Area{
+    align-items: center;
+    padding: 0.2rem;
+}
+]
